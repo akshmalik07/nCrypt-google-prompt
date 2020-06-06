@@ -1,0 +1,235 @@
+
+
+
+  @media only screen and (max-width: 1000px) {
+    body {
+      background-color: blue !important;
+    }
+
+    @font-face {
+      font-family: Futura;
+      src: url(FuturaMediumBT.ttf);
+    }
+    @font-face{
+      font-family: montserrat;
+      src: url(MontserratAlternates-Bold.ttf);
+    }
+    input:focus,
+    select:focus,
+    textarea:focus,
+    button:focus {
+        outline: none;
+    }
+    .responsive {
+      width: 100%;
+      height: auto;
+      margin-left: 0%;
+    
+    }
+    
+    .bg-image {
+        background-image: url("./img/girl.png");
+        background-color: #cccccc;
+        height: 100vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+      
+      }
+    
+    .bottom-right {
+      position: absolute;
+      bottom: 8px;
+      right: 16px;
+    }
+    
+    .centered {
+      position: relative;
+      top: 35vh;
+      left: 64vw;
+      transform: translate(-50%, -50%);
+      display: inline-block;
+      color: #5061ff;
+      font-size: 7em;
+      font-family: Futura;
+    }
+    .box {
+      width: 100vw;
+      
+    }
+    
+    #search {
+      position: relative;
+      top: 25vh;
+      left: 40vw;
+    
+      display: inline-block;
+      border-radius: 40px;
+      width: 44vw;
+      height: 55%;
+      
+        border: 1px solid;
+        padding: 1.5vh;
+        box-shadow: 3px 3px #888888;
+        
+        
+    }
+    
+    .button1 {
+      position: relative;
+      top: 35vh;
+      left: 52vw;
+      transform: translate(-50%, -50%);
+      display: inline-block;
+    }
+    
+    .button2{
+      position: relative;
+      top: 35vh;
+      left: 60vw;
+      transform: translate(-50%, -50%);
+      
+      display: inline-block;
+    
+     
+    }
+    .buttonstyle2 {
+      background-color:#5061ff ;
+      border-radius: 12px;
+      border: none;
+      height: 47px;
+      color: white;
+    width: 120%;
+     display: inline-block;
+     ;
+    }
+    .buttonstyle{
+      background-color:#5061ff ;
+      border-radius: 12px;
+      border: none;
+      height: 47px;
+      color: white;
+    width: 120%;
+     display: inline-block;
+     
+    }
+  }
+
+
+  @font-face {
+    font-family: Futura;
+    src: url(FuturaMediumBT.ttf);
+  }
+  @font-face{
+    font-family: montserrat;
+    src: url(MontserratAlternates-Bold.ttf);
+  }
+  input:focus,
+  select:focus,
+  textarea:focus,
+  button:focus {
+      outline: none;
+  }
+  .responsive {
+    width: 100%;
+    height: auto;
+    margin-left: 0%;
+  
+  }
+  
+  .bg-image {
+      background-image: url("./img/girl.png");
+      background-color: #cccccc;
+      height: 100vh;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+    
+    }
+  
+  .bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+  }
+  
+  .centered {
+    position: relative;
+    top: 35vh;
+    left: 63vw;
+    transform: translate(-50%, -50%);
+    display: inline-block;
+    color: #5061ff;
+    font-size: 7em;
+    font-family: Futura;
+  }
+  .box {
+    width: 100vw;
+    
+  }
+  
+  #search {
+    position: relative;
+    top: 25vh;
+    left: 40vw;
+  
+    display: inline-block;
+    border-radius: 40px;
+    width: 44vw;
+    height: 55%;
+    
+      border: 1px solid;
+      padding: 1.5vh;
+      box-shadow: 3px 3px #888888;
+      
+      
+  }
+  
+  .button1 {
+    position: relative;
+    top: 35vh;
+    left: 52vw;
+    transform: translate(-50%, -50%);
+    display: inline-block;
+  }
+  
+  .button2{
+    position: relative;
+    top: 35vh;
+    left: 60vw;
+    transform: translate(-50%, -50%);
+    
+    display: inline-block;
+  
+   
+  }
+  .buttonstyle2 {
+    background-color:#5061ff ;
+    border-radius: 12px;
+    border: none;
+    height: 47px;
+    color: white;
+  width: 120%;
+   display: inline-block;
+   ;
+  }
+  .buttonstyle{
+    background-color:#5061ff ;
+    border-radius: 12px;
+    border: none;
+    height: 47px;
+    color: white;
+  width: 120%;
+   display: inline-block;
+   
+  }
+  
+  
+
+  
+
+
+
+
