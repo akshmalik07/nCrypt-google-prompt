@@ -10,6 +10,7 @@
     font-family: montserrat;
     src: url(MontserratAlternates-Bold.ttf);
   }
+  
   input:focus,
   select:focus,
   textarea:focus,
@@ -20,10 +21,10 @@
   .bg-image {
     background-image: url("./img/girl.png");
     background-color: #cccccc;
-    height: 160vh;
+    height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     position: relative;
   }
 
