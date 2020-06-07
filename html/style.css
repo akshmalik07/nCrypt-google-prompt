@@ -1,7 +1,40 @@
 @media only screen and (max-width: 1000px) {
-  body {
-    background-color: blue !important;
+  #topnav{display: none;}
+  #bottom-nav{display: none;}
+
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 20px;
+    font-family: sans-serif;
   }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+ 
+ 
   @font-face {
     font-family: Futura;
     src: url(FuturaMediumBT.ttf);
@@ -10,7 +43,7 @@
     font-family: montserrat;
     src: url(MontserratAlternates-Bold.ttf);
   }
-  
+
   input:focus,
   select:focus,
   textarea:focus,
@@ -37,7 +70,7 @@
   .centered {
     position: relative;
     top: 28vh;
-    left: 55vw;
+    left: 48vw;
     transform: translate(-50%, -50%);
     display: inline-block;
     color: #5061ff;
@@ -98,18 +131,82 @@
     width: 100%;
     display: inline-block;
   }
+
 }
 
 
 
 
-@media only screen and (min-width: 650px) {
-
+@media only screen and (min-width: 999px) {
+  #mySidenav {display: none;}
+  #span {display: none;}
   body {
     background-color: blue !important;
   }
-  .navbar{
-    background-color: chartreuse;
+ .user{
+  width: 50px;
+  height: 50px;
+  top: 5%;
+  
+ }
+  #wrapper {
+    background:#0D6FBA;
+    display:inline-block;
+    border-radius:500px;
+    margin:10px;
+    position: relative;
+    padding:5px;
+    cursor:pointer;
+  }
+  .circle {
+    width:25px;
+    height:25px;
+    position:relative;
+  }
+  .line {
+    position: absolute;
+    height: 4px;
+    width:100%;
+    background:white;
+    border-radius:8px;
+    transition: all cubic-bezier(0.26, 0.1, 0.27, 1.55) 0.35s;
+  }
+  .top {
+    top:18%;
+  }
+  .middle {
+    top:48%;
+  }
+  .bottom {
+    top:80%;
+  }
+  .icon.close .top {
+    transform:rotate(45deg);
+    top:48%;
+  }
+  .icon.close .middle, .icon.close .bottom {
+    transform:rotate(-45deg);
+    top:48%;
+  }
+  #brand{
+    font-family: futura;
+    font-size: 3em;
+    color: #5061FF;
+    margin-left: 3vw;
+  }
+
+  #links{
+    font-family: serif;
+    font-size: 20px;
+    color: #5061FF;
+    text-emphasis: bold;
+   
+  }
+  .topnav-right {
+    float: right;
+  }
+  #navbar-brand{
+    color: chartreuse;
   }
   @font-face {
     font-family: Futura;
@@ -149,7 +246,7 @@
 
   .centered {
     position: relative;
-    top: 28vh;
+    top: 20vh;
     left: 62vw;
     transform: translate(-50%, -50%);
     display: inline-block;
@@ -163,7 +260,7 @@
 
   #search {
     position: relative;
-    top: 20vh;
+    top: 10vh;
     left: 41vw;
 
     display: inline-block;
@@ -178,7 +275,7 @@
 
   .button1 {
     position: relative;
-    top: 29vh;
+    top: 19vh;
     left: 54vw;
     transform: translate(-50%, -50%);
     display: inline-block;
@@ -186,7 +283,7 @@
 
   .button2 {
     position: relative;
-    top: 29vh;
+    top: 19vh;
     left: 59vw;
     transform: translate(-50%, -50%);
    
