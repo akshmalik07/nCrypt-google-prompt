@@ -16,19 +16,14 @@
   button:focus {
     outline: none;
   }
-  .responsive {
-    width: 100%;
-    height: auto;
-    margin-left: 0%;
-  }
-
+  
   .bg-image {
     background-image: url("./img/girl.png");
     background-color: #cccccc;
-    height: 100vh;
+    height: 160vh;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     position: relative;
   }
 
@@ -40,7 +35,7 @@
 
   .centered {
     position: relative;
-    top: 32vh;
+    top: 28vh;
     left: 55vw;
     transform: translate(-50%, -50%);
     display: inline-block;
@@ -54,7 +49,7 @@
 
   #search {
     position: relative;
-    top: 26vh;
+    top: 21vh;
     left: 30vw;
 
     display: inline-block;
@@ -69,7 +64,7 @@
 
   .button1 {
     position: relative;
-    top: 35vh;
+    top: 28vh;
     left: 38vw;
     transform: translate(-50%, -50%);
     display: inline-block;
@@ -77,8 +72,8 @@
 
   .button2 {
     position: relative;
-    top: 35vh;
-    left: 43vw;
+    top: 28vh;
+    left: 41vw;
     transform: translate(-50%, -50%);
    
     display: inline-block;
