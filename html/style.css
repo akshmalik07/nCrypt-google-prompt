@@ -1,127 +1,12 @@
-
-
-
-  @media only screen and (max-width: 1000px) {
-    body {
-      background-color: blue !important;
-    }
-
-    @font-face {
-      font-family: Futura;
-      src: url(FuturaMediumBT.ttf);
-    }
-    @font-face{
-      font-family: montserrat;
-      src: url(MontserratAlternates-Bold.ttf);
-    }
-    input:focus,
-    select:focus,
-    textarea:focus,
-    button:focus {
-        outline: none;
-    }
-    .responsive {
-      width: 100%;
-      height: auto;
-      margin-left: 0%;
-    
-    }
-    
-    .bg-image {
-        background-image: url("./img/girl.png");
-        background-color: #cccccc;
-        height: 100vh;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-      
-      }
-    
-    .bottom-right {
-      position: absolute;
-      bottom: 8px;
-      right: 16px;
-    }
-    
-    .centered {
-      position: relative;
-      top: 35vh;
-      left: 64vw;
-      transform: translate(-50%, -50%);
-      display: inline-block;
-      color: #5061ff;
-      font-size: 7em;
-      font-family: Futura;
-    }
-    .box {
-      width: 100vw;
-      
-    }
-    
-    #search {
-      position: relative;
-      top: 25vh;
-      left: 40vw;
-    
-      display: inline-block;
-      border-radius: 40px;
-      width: 44vw;
-      height: 55%;
-      
-        border: 1px solid;
-        padding: 1.5vh;
-        box-shadow: 3px 3px #888888;
-        
-        
-    }
-    
-    .button1 {
-      position: relative;
-      top: 35vh;
-      left: 52vw;
-      transform: translate(-50%, -50%);
-      display: inline-block;
-    }
-    
-    .button2{
-      position: relative;
-      top: 35vh;
-      left: 60vw;
-      transform: translate(-50%, -50%);
-      
-      display: inline-block;
-    
-     
-    }
-    .buttonstyle2 {
-      background-color:#5061ff ;
-      border-radius: 12px;
-      border: none;
-      height: 47px;
-      color: white;
-    width: 120%;
-     display: inline-block;
-     ;
-    }
-    .buttonstyle{
-      background-color:#5061ff ;
-      border-radius: 12px;
-      border: none;
-      height: 47px;
-      color: white;
-    width: 120%;
-     display: inline-block;
-     
-    }
+@media only screen and (max-width: 1000px) {
+  body {
+    background-color: blue !important;
   }
-
-
   @font-face {
     font-family: Futura;
     src: url(FuturaMediumBT.ttf);
   }
-  @font-face{
+  @font-face {
     font-family: montserrat;
     src: url(MontserratAlternates-Bold.ttf);
   }
@@ -129,36 +14,147 @@
   select:focus,
   textarea:focus,
   button:focus {
-      outline: none;
+    outline: none;
   }
   .responsive {
     width: 100%;
     height: auto;
     margin-left: 0%;
-  
   }
-  
+
   .bg-image {
-      background-image: url("./img/girl.png");
-      background-color: #cccccc;
-      height: 100vh;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      position: relative;
-    
-    }
-  
+    background-image: url("./img/girl.png");
+    background-color: #cccccc;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
   .bottom-right {
     position: absolute;
     bottom: 8px;
     right: 16px;
   }
-  
+
   .centered {
     position: relative;
+    top: 32vh;
+    left: 55vw;
+    transform: translate(-50%, -50%);
+    display: inline-block;
+    color: #5061ff;
+    font-size: 4em;
+    font-family: Futura;
+  }
+  .box {
+    width: 100vw;
+  }
+
+  #search {
+    position: relative;
+    top: 26vh;
+    left: 30vw;
+
+    display: inline-block;
+    border-radius: 40px;
+    width: 53vw;
+    height: 57%;
+
+    border: 1px solid;
+    padding: 1.5vh;
+    box-shadow: 3px 3px #888888;
+  }
+
+  .button1 {
+    position: relative;
     top: 35vh;
-    left: 63vw;
+    left: 38vw;
+    transform: translate(-50%, -50%);
+    display: inline-block;
+  }
+
+  .button2 {
+    position: relative;
+    top: 35vh;
+    left: 43vw;
+    transform: translate(-50%, -50%);
+   
+    display: inline-block;
+  }
+  .buttonstyle2 {
+    background-color: #5061ff;
+    border-radius: 12px;
+    border: none;
+    height: 6vh;
+    color: white;
+    width: 100%;
+    display: inline-block;
+   
+  }
+  .buttonstyle {
+    background-color: #5061ff;
+    border-radius: 12px;
+    border: none;
+    height: 6vh;
+    color: white;
+    width: 100%;
+    display: inline-block;
+  }
+}
+
+
+
+
+@media only screen and (min-width: 650px) {
+
+  body {
+    background-color: blue !important;
+  }
+  .navbar{
+    background-color: chartreuse;
+  }
+  @font-face {
+    font-family: Futura;
+    src: url(FuturaMediumBT.ttf);
+  }
+  @font-face {
+    font-family: montserrat;
+    src: url(MontserratAlternates-Bold.ttf);
+  }
+  input:focus,
+  select:focus,
+  textarea:focus,
+  button:focus {
+    outline: none;
+  }
+  .responsive {
+    width: 100%;
+    height: auto;
+    margin-left: 0%;
+  }
+
+  .bg-image {
+    background-image: url("./img/girl.png");
+    background-color: #cccccc;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+  }
+
+  .centered {
+    position: relative;
+    top: 28vh;
+    left: 62vw;
     transform: translate(-50%, -50%);
     display: inline-block;
     color: #5061ff;
@@ -167,69 +163,57 @@
   }
   .box {
     width: 100vw;
-    
   }
-  
+
   #search {
     position: relative;
-    top: 25vh;
-    left: 40vw;
-  
+    top: 20vh;
+    left: 41vw;
+
     display: inline-block;
     border-radius: 40px;
-    width: 44vw;
-    height: 55%;
-    
-      border: 1px solid;
-      padding: 1.5vh;
-      box-shadow: 3px 3px #888888;
-      
-      
+    width: 43vw;
+    height: 57%;
+
+    border: 1px solid;
+    padding: 1.5vh;
+    box-shadow: 3px 3px #888888;
   }
-  
+
   .button1 {
     position: relative;
-    top: 35vh;
-    left: 52vw;
+    top: 29vh;
+    left: 54vw;
     transform: translate(-50%, -50%);
     display: inline-block;
   }
-  
-  .button2{
+
+  .button2 {
     position: relative;
-    top: 35vh;
-    left: 60vw;
+    top: 29vh;
+    left: 59vw;
     transform: translate(-50%, -50%);
-    
-    display: inline-block;
-  
    
+    display: inline-block;
   }
   .buttonstyle2 {
-    background-color:#5061ff ;
+    background-color: #5061ff;
     border-radius: 12px;
     border: none;
-    height: 47px;
+    height: 6vh;
     color: white;
-  width: 120%;
-   display: inline-block;
-   ;
-  }
-  .buttonstyle{
-    background-color:#5061ff ;
-    border-radius: 12px;
-    border: none;
-    height: 47px;
-    color: white;
-  width: 120%;
-   display: inline-block;
+    width: 100%;
+    display: inline-block;
    
   }
-  
-  
-
-  
-
-
-
+  .buttonstyle {
+    background-color: #5061ff;
+    border-radius: 12px;
+    border: none;
+    height: 6vh;
+    color: white;
+    width: 100%;
+    display: inline-block;
+  }
+}
 
