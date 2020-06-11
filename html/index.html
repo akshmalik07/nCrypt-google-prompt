@@ -21,13 +21,19 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
     <script>
         function openNav() {
-          document.getElementById("mySidenav").style.width = "250px";
+            document.getElementById("mySidenav").style.width = "250px";
         }
-        
+
         function closeNav() {
-          document.getElementById("mySidenav").style.width = "0";
+            document.getElementById("mySidenav").style.width = "0";
         }
-        </script>
+
+        /* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+        function dropFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+    </script>
 </head>
 
 <body class="body">
@@ -50,15 +56,15 @@
             <br>
             <br>
             <br>
-           
+
             <a href="https://policies.google.com/privacy?hl=en-US">Privacy</a>
             <a href="https://about.google/">About</a>
-             <a href="https://support.google.com/accounts/answer/3118621?hl=en">Settings</a>
-          </div>
-          <span style="font-size:30px;cursor:pointer" onclick="openNav()" id="span">&#9776;</span>
+            <a href="https://support.google.com/accounts/answer/3118621?hl=en">Settings</a>
+        </div>
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()" id="span">&#9776;</span>
 
-          
-                 
+
+
         <nav class="navbar navbar-expand-lg navbar-light " id="topnav">
             <a class="navbar-brand" href="#" id="brand">Google</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
@@ -68,7 +74,7 @@
             <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav ml-auto" id="links">
                     <li class="nav-item active ">
-                        <a class="nav-link" href="https://www.google.com/drive/">Drive <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="https://www.google.com/drive/">Drive</a>
                     </li>
                     <li class="nav-item active">
                         <a class="nav-link" href="https://www.google.co.in/imghp?hl=en">Images</a>
@@ -76,25 +82,90 @@
                     <li class="nav-item active">
                         <a class="nav-link" href="https://www.google.com/gmail/">Mail</a>
                     </li>
-                    
+
                     <li>
-                        <div id="wrapper">
-                            <div class ="circle icon">
-                                <span class="line top"></span>
-                                <span class="line middle"></span>
-                                <span class="line bottom"></span>
+                        <div class="dropdown">
+                            <div id="wrapper" onclick="dropFunction()" class="dropbtn">
+                                <div class="circle icon">
+                                    <span class="line top"></span>
+                                    <span class="line middle"></span>
+                                    <span class="line bottom"></span>
+                                </div>
+
                             </div>
-                          </div>
-                        
-                        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-                        
-                        <script type="text/javascript">
-                        $("#wrapper").click( function() {
-                            $(".icon").toggleClass("close");
-                        });
-                        </script>
+
+                            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+                            <script type="text/javascript">
+                                $("#wrapper").click(function () {
+                                    $(".icon").toggleClass("close");
+                                });
+                            </script>
+                            <div id="myDropdown" class="dropdown-content">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-sm">
+                                            <div class="card" style="width:5vw;height: 10vh;border: none;">
+                                                <a href="https://www.google.com/gmail/"><img class="card-img-top"
+                                                        src="./img/gmai icon.png" alt="Card image cap" width="40"
+                                                        height="40"></a>
+
+                                            </div>
+                                        </div>
+                                        <div class="col-sm">
+                                            <div class="card" style="width:5vw;height: 10vh;border: none;">
+                                                <a href="https://www.google.com/drive/"><img class="card-img-top"
+                                                        src="./img/drive.png" alt="Card image cap" width="40"
+                                                        height="40"></a>
+                                               
+                                            </div>
+
+                                        </div>
+                                        <div class="col-sm">
+                                            <div class="card" style="width:5vw;height: 10vh;border: none;">
+                                                <a href="https://www.google.com/photos/about/"><img class="card-img-top"
+                                                        src="./img/photo.png" alt="Card image cap" width="40"
+                                                        height="40"></a>
+                                              
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+
+
+                                    <div class="row">
+                                        <div class="col-sm">
+                                            <div class="card" style="width:5vw;height: 10vh;border: none;">
+                                                <a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwi7w4KE9_TpAhWGfCsKHdIBCHkYABAAGgJzZg&ohost=www.google.com&cid=CAESQeD2cpPn8yhckzkBd06q31yvqWg0lF5aEHEV4lYgHnXzVpiKvUEA2r_2i6j8uPH9J7z7FnLROplCMT4wf1-HJ6ym&sig=AOD64_2MsI4shOoUU0h-kNDNh0oYhcPGbA&q=&ved=2ahUKEwjeqfuD9_TpAhVUmuYKHZQKBr8Q0Qx6BAglEAE&adurl="><img class="card-img-top" src="./img/youtube.png"
+                                                        alt="Card image cap" width="40" height="40"></a>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="col-sm">
+                                            <div class="card" style="width:5vw;height: 10vh;border: none;">
+                                                <a
+                                                    href="https://www.google.com/shopping?hl=en"><img
+                                                        class="card-img-top" src="./img/google-shopping.png"
+                                                        alt="Card image cap" width="40" height="40"></a>
+                                              
+                                            </div>
+                                        </div>
+                                        <div class="col-sm">
+                                            <div class="card" style="width:5vw;height: 10vh;border: none;">
+                                                <a href="https://maps.google.com/"><img class="card-img-top" src="./img/maps.png"
+                                                        alt="Card image cap" width="40" height="40"></a>
+                                               
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
                     </li>
-                    <li class="top-nav" >
+                    <li class="top-nav">
                         <img class="user" src="./img/user.png" alt="user">
                     </li>
 
@@ -103,13 +174,13 @@
             </div>
         </nav>
 
-          
-      
-        
+
+
+
         <div class="centered">
             <p>Google</p>
         </div>
-        
+       
         <div class="box">
             <input class="input" type="search" id="search" placeholder="  Search Google or type a URL">
 
@@ -124,19 +195,19 @@
 
         <nav class="navbar navbar-expand-lg navbar-light fixed-bottom " id="bottom-nav">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item active" style="font-family: serif; font-size: 20px;padding: 5px;"> 
+                <li class="nav-item active" style=" font-family: Helvetica; font-size: 15px;padding: 5px;">
                     <a class='nav-link' href="https://policies.google.com/privacy?hl=en-US">Privacy</a>
-                 </li>
-                 <li class="nav-item active" style="font-family: serif; font-size: 20px;padding: 5px;"> 
+                </li>
+                <li class="nav-item active" style=" font-family: Helvetica; font-size: 15px;padding: 5px;">
                     <a class='nav-link' href="https://about.google/">About</a>
-                 </li>
-                 <li class="nav-item active" style="font-family: serif; font-size: 20px;padding: 5px;"> 
+                </li>
+                <li class="nav-item active" style=" font-family: Helvetica; font-size: 15px;padding: 5px;">
                     <a class='nav-link' href="https://support.google.com/accounts/answer/3118621?hl=en">Settings</a>
-                 </li>
+                </li>
 
             </ul>
-          </nav>
-                  
+        </nav>
+
     </div>
 
 </body>
